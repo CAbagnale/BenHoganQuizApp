@@ -99,7 +99,7 @@ const STORE = [
         extraInfo: 'Hogan dropped out of R.L. Paschal High School in his final semester',
     },
     {
-        question: 'Ben Hogan and who else were the only two golfers to ever receive a ticker-tape parade?',
+        question: 'Ben Hogan and who else were the only two golfers to ever receive a ticker tape parade?',
         answers: [
             'Gene Sarazen',
             'Tiger Woods',
@@ -107,6 +107,6 @@ const STORE = [
 		    'Sergio Garcia',
         ],
         correctAnswer: 'Gene Sarazen',
-        extraInfo: 'Hogan received a ticker-tape parade upon his return from England after winning the British Open. Gene Sarazen was the only other golfer to receive this honor.',
+        extraInfo: 'Hogan received a ticker tape parade upon his return from England after winning the British Open. Gene Sarazen was the only other golfer to receive this honor.',
     },
 ]
