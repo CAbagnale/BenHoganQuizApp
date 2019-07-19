@@ -126,13 +126,16 @@ function showResults() {
 
 function restartQuiz() {
   $('main').on('click', '.restartButton', function (event) {
-    location.reload();
+    $('.quizStart').css('display', 'block');
+    $('.questionForm').css('display', 'none');
+    questionNumber = 0;
+    console.log("restartQuiz ran");
   });
 }
 function startQuiz() {
     $('.quizStart').on('click', '.startButton', function (event) {
       console.log("startQuiz ran");
-      $('.quizStart').remove();
+      $('.quizStart').css('display', 'none');
       $('.questionForm').css('display', 'block');
       $('.scoreBanner').css('display', 'block');
       $('.questionNumber').text(1);
