@@ -129,6 +129,7 @@ function restartQuiz() {
     $('.quizStart').css('display', 'block');
     $('.questionForm').css('display', 'none');
     questionNumber = 0;
+    score = 0;
     console.log("restartQuiz ran");
   });
 }
